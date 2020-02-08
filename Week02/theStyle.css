@@ -1,0 +1,29 @@
+body{
+    font-family: monospace;
+    background-color: orange;
+}
+
+main{
+    background-color: white;
+    width:1000px;
+    padding:30px;
+    border:100px solid black;
+    margin:0px;
+}
+img {
+    width: 25%;
+    height: auto;
+  }
+aside {
+    width: 60%;
+    padding-right: 3rem;
+    margin-right: 3rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px green;
+    font-style: monospace;
+    color: red;
+}
+
+aside > p {
+    margin: 1rem;
+}
