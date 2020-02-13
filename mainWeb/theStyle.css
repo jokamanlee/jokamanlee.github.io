@@ -1,0 +1,19 @@
+body{
+    background-color: orange;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+a:visited{
+    color:red;
+}
+
+a:hover{
+    color:blue;
+    font-size: 76px;
+}
+
+.List{
+    font-size: 45px;
+    padding: 10vh;
+}
