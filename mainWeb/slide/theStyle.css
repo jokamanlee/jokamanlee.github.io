@@ -1,0 +1,108 @@
+main{
+    font-family: 'Varela Round', sans-serif;
+    text-align:center;
+    font-size:5vw;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+
+body{
+    font-family: 'Varela Round', sans-serif;
+    background-image:
+        linear-gradient(to bottom,rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
+         url("https://storage.gra.cloud.ovh.net/v1/AUTH_10e1a9235c63431c95e5b84a247830db/prod/artwork/409672_1_m.jpg");
+    background-size:cover;
+}
+
+.artist{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    max-width:75%;
+    height:auto;
+    background-image:
+    linear-gradient(to bottom,rgba(255,255,0,0.5), rgba(0,0,255,0.5)),
+     url("https://storage.gra.cloud.ovh.net/v1/AUTH_10e1a9235c63431c95e5b84a247830db/prod/artwork/409672_1_m.jpg");
+    background-size:cover;
+    border-radius: 15px;
+
+}
+
+.bio{
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.early1{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    max-width:75%;
+    height:auto;
+    border-radius: 15px;
+
+}
+
+.earlyDetail{
+    background-color: white;
+    border-radius: 15px;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.flat{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    max-width:75%;
+    height:auto;
+    border-radius: 15px;
+
+
+}
+
+.flatDetail{
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.last{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    max-width:75%;
+    height:auto;
+    border-radius: 15px;
+
+}
+
+.finalDetail{
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 3vw;
+
+}
+button{
+    border:0;
+    background-color: black;
+    color: white;
+    padding:15px 32px;
+    font-size: 16px;
+
+}
+#next{
+   position: sticky;
+
+}
+
+#previous{
+   position: sticky;
+
+}
