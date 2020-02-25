@@ -1,24 +1,243 @@
-main{
-    
-}
+
 
 body{
-    background-color: red;
+    background-color:black;
+    font-co
+    /* display:flex; */
+    /* 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start; */
+}
+/* / #x{
+
+    height: 20vh;
+    width: 20vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+#xT{
+    display:inline-block;
+    height: 20vh;
+    width: 20vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}  */
+#container{
+    height:100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    /* align-content: center; */
+    align-items: flex-start;
 
 }
 
-.up{
+#sub{
+    width:50vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+    /* flex-direction: column;
+    align-content: space-between;
+
+
+} */
+#word{
+    font-size: 5em;
+    /* order: -1; */
+    /* align-self: center; */
+
     
+}
+ .up{
+     /* flex-direction: column; */
+    transform: rotate(180deg);
+    /* align-self:center; */
+    order:-1;
+    border-radius: 300px;
+
+
+
 }
 
 .down{
+    /* align-self:flex-end; */
+    border-radius: 300px;
+
+    
 
 }
 
 .right{
+    transform: rotate(270deg);
+    align-self: center;
+    border-radius: 300px;
 
+    /* display:flex; */
+    /* flex-direction: row; */
+    /* align-self:center; */
+    /* align-self:flex-end; */
+
+
+}
+.rightLink{
+    /* transform: rotate(270deg); */
+    align-self: center;
+}
+
+.leftLink{
+    align-self: center;
+    order:-1;
 }
 
 .left{
+    transform: rotate(90deg);
+    align-self: center;
+    border-radius: 300px;
 
+    order: -2;
+    /* align-self:center; */
+
+     
+
+} 
+
+#money{
+    border-radius: 50px;
+
+    width:30vw;
+    height:auto;
+    align-self:center;
+    width:40vw;
+    height: auto;
+}
+
+#apple{
+    border-radius: 50px;
+    align-self:center;
+    width:40vw;
+    height: auto;
+
+}
+
+#cupcake{
+    border-radius: 50px;
+
+    align-self:center;
+    width:40vw;
+    height: auto;
+
+}
+
+#dog{
+    border-radius: 50px;
+
+    width:40vw;
+    height:auto;
+    align-self:center;
+
+}
+
+#fix{
+    border-radius: 50px;
+
+    display:flex;
+    width:40vw;
+    height:auto;
+ 
+
+}
+
+#rich{
+    border-radius: 50px;
+
+    width:40vw;
+    height: auto;
+
+}
+
+#jail{
+    border-radius: 50px;
+
+    width:40vw;
+    height: auto;
+
+}
+
+#poison{
+    width:40vw;
+    height: auto;
+    border-radius: 50px;
+
+}
+
+#yummy{
+    border-radius: 50px;
+
+    width:40vw;
+    height: auto;
+}
+
+#bite{
+    border-radius: 50px;
+
+    width:40vw;
+    height: auto;
+
+}
+
+#keepDog{
+    border-radius: 50px;
+
+    width:40vw;
+    height: auto;
+
+}
+
+#pain{
+    border-radius: 300px;
+
+    width:40vw;
+    height:auto;
+
+}
+
+p{
+    font-size:4rem;
+    color:white;
+}
+
+.text{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#textPic{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    border:0;
+    border-radius: 50px;
+    background-color: red;
+    color: white;
+    padding:15px 32px;
+    font-size: 60px;
 }
