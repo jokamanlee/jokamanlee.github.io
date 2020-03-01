@@ -1,0 +1,102 @@
+header{
+    font-family: 'Roboto Slab' ;
+
+    color: white;
+    text-align: center;
+}
+main{
+    font-family: 'Roboto Slab' ;
+
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+body{
+    background-color:black;
+    text-align: center;
+}
+
+#left1{
+    display: inline-block;
+    /* background-image: linear-gradient(to right, red,orange,yellow,green); */
+    background-image:url('https://gifimage.net/wp-content/uploads/2018/10/ad-gif.gif'); background-repeat:repeat;
+    background-position: center;
+
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+
+}
+
+#right1{
+    display: inline-block;
+
+    /* background-image: linear-gradient(to right, red,orange,yellow,green); */
+    background-image:url('https://images.squarespace-cdn.com/content/v1/5c055f98620b858a898bfcae/1549389806485-ICGOX3B4QFYYGS3V3DEC/ke17ZwdGBToddI8pDm48kLQaKYcscmMzzBIwgjs5b517gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmx7E2y0Nr9bcLpdErMserE1OcCM442twbF3gqzRaQ2scbMBxTkbZ6nALm0dccsUTe/YourAdChoices-CYCLE-REDslower.gif'); background-repeat:repeat;
+    background-position: center;
+    background-size:50% ;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+
+}
+#left2{
+    display: inline-block;
+    /* background-image: linear-gradient(to right, red,orange,yellow,green); */
+    background-image:url('https://media.giphy.com/media/l3vR4i3f318BgYuze/giphy.gif'); background-repeat:repeat;
+    background-position: center;
+    background-size:75% ;
+
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+
+}
+
+#right2{
+    display: inline-block;
+
+    /* background-image: linear-gradient(to right, red,orange,yellow,green); */
+    background-image:url('https://media.giphy.com/media/l0HlUoIYYAvboT7UI/giphy.gif'); background-repeat:repeat;
+    background-position: center;
+
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+
+}
+#left3{
+    display: inline-block;
+    background-color: white;
+    background-image:url('https://media.giphy.com/media/KCRc1mzOwYd56JjR0l/giphy.gif'); background-repeat:repeat;
+    background-position: center;
+
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+
+}
+
+#right3{
+    display: inline-block;
+
+    /* background-image: linear-gradient(to right, red,orange,yellow,green); */
+    background-image:url('https://media.giphy.com/media/13rQ7rrTrvZXlm/giphy.gif'); background-repeat:repeat;
+    background-position: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+
+}
+
+p{
+    color:black;
+    font-size: 20px;
+    text-shadow: 5px 0px 5px white, 0 0 10px black;
+    text-align: center;
+    padding: 200px 0;
+}
+
