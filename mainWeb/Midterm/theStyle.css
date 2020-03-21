@@ -1,3 +1,5 @@
+
+
 #home{
     background-color: black;
     display: grid;
@@ -19,8 +21,54 @@ h1{
 
 
 a{
-    text-decoration: none;
+    text-decoration: line-through;
+    
 }
+
+#homeb{
+    width:100px;
+    height:50px;
+    background: black;
+    color: white;
+    position: relative;
+    top:-100px;
+    left:300px;
+    z-index: 3;
+    font-size: 15px;
+
+    
+}
+#homebc{
+    width:100px;
+    height:50px;
+    background: black;
+    color: white;
+    position: relative;
+    top:100px;
+    left:300px;
+    z-index: 3;
+    font-size: 15px;
+
+
+    
+}
+
+#homebs{
+    width:100px;
+    height:50px;
+    background: black;
+    color: white;
+    position: relative;
+    top:100px;
+    left:300px;
+    z-index: 3;
+    font-size: 15px;
+
+
+    
+}
+
+
 
 
 #ocean{
@@ -48,61 +96,6 @@ a{
 .oceanLink{
    color:aqua;
 }
-
-#oceanScreen{
-    display: grid;
-    background-color:yellow;
-    grid-template-columns: 20% 20% 20% 20% 20% 20%;
-    grid-template-rows: 20% 3% 10% 10% 17% 20% 20%;
-    width:100vw;
-    height:100vh;
-}
-
-#sunOcean{
-    width:200px;
-    height:200px;
-    background-color: orange;
-    border-radius: 50%;
-    grid-column-start: 1;
-    grid-row-start: 1;
-    
-}
-
-#sunOcean:hover + #oceanScreen{
-    background-color:black;
-}
-#fish{
-    width:50%;
-    height:auto;
-    position: relative;
-    animation-name:fish;
-    animation-duration:8s;  
-    animation-iteration-count:infinite;
-}
-
-@keyframes fish{
-    0% {top:800px; left:600px; opacity:0;}
-    10%{top:800px; left:400px; opacity:1;}
-    99%{top:800px; left:00px;opacity:1}
-    100%{top:800px; left:-300px; opacity:0;}
-
-}
-
-#fish2{
-    width:50%;
-    height:auto;
-    position:relative;
-    animation-name:fishTwo;
-    animation-duration:12s;
-    animation-iteration-count: infinite;
-}
-@keyframes fishTwo{
-    0%{top:550px; left:-500px;opacity: 0;}
-    10%{top:550px; left:-500px; opacity:1;}
-    99%{top:550px; left:800px;opacity:1}
-    100%{top:550px; left:800px;opacity:0;}
-}
-
 #city{
     grid-column-start: 3;
     grid-row-start: 3;  
@@ -126,51 +119,11 @@ a{
 }
 
 
-#cityBackOne{
-    background-color: gray;
-    grid-column:1/2;
-    grid-row:6/8; 
-
-}
-#cityBackTwo{
-    background-color: darkgray;
-    grid-column:2/3;
-    grid-row:4/8;
-}
-#cityBackThree{
-    background-color: dimgray;
-    grid-column:3/4;
-    grid-row:5/8;
-
-}
-
-#cityBackFour{
-    background-color: gray;
-    grid-column:4/5;
-    grid-row:3/8;
-}
-
-#cityBackFive{
-    background-color: darkgray;
-    grid-column:5/6;
-    grid-row:5/8;
-    
-}
-
-
 .cityLink{
     color:darkgray;
-
 }
 
-.city{
-    background-color:crimson;
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20% 20%;
-    grid-template-rows: 20% 3% 10% 10% 17% 20% 20%;
-    width:100vw;
-    height:100vh;
-}
+
 
 #space{
     grid-column-start: 4;
@@ -198,14 +151,336 @@ a{
 }
 
 
+
+//////////*OCEAN*////////////
+
 .ocean{
-    background-color:yellow;
+    background: yellow;
 }
-#water{
+#oceanScreen{
+    display: grid;
+    background-color:yellow;
+    grid-template-columns: 20% 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 3% 10% 10% 17% 20% 20%;
+    width:100vw;
+    height:100vh;
+}
+
+
+#sun{
+    width:200px;
+    height:200px;
+    background-color: orange;
+    border-radius: 50%;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    z-index:2;
+    transition: background-color 1s ease-out;
+
+}
+
+#sun:hover {
+  background-color: red;
+}
+
+
+#bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: yellow;
+}
+
+#sun:hover ~ #bg {
+    background: black;
+}
+
+#fish{
+    width:50%;
+    height:auto;
+    z-index:2;
+    position: relative;
+    animation-name:fish;
+    animation-duration:8s;  
+    animation-iteration-count:infinite;
+}
+
+@keyframes fish{
+    0% {top:800px; left:600px; opacity:0;}
+    10%{top:800px; left:400px; opacity:1;}
+    99%{top:800px; left:00px;opacity:1}
+    100%{top:800px; left:-300px; opacity:0;}
+
+}
+
+#fish2{
+    width:50%;
+    height:auto;
+    z-index:2;
+    position:relative;
+    animation-name:fishTwo;
+    animation-duration:12s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes fishTwo{
+    0%{top:550px; left:-700px;opacity: 0;}
+    10%{top:550px; left:-500px; opacity:1;}
+    99%{top:550px; left:100px;opacity:1}
+    100%{top:550px; left:100px;opacity:0;}
+}
+
+.water{
     background-color:aqua;
     grid-area: 5/1/8/6;
+    z-index:2;
+ 
+}
+
+.water.is-active {
+  background: green;
+}
+
+#rock{
+    width:110%;
+    height:auto;
+    z-index:3;
+    position:relative;
+    left:-80vw;
+    top:60vh;  
+    transition:all 2s;
+}
+
+#rock:focus {
+    top:20vh;
+    outline:none;
+}
+
+#rock{
+    -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+
+/*rock cite:https://stackoverflow.com/questions/42006485/how-do-i-make-a-div-fly-off-the-screen-on-click/42006837*/
+
+#treasure{
+    width:50%;
+    height:auto;
+    position:relative;
+    left:25vw;
+    top:50vh;
+    z-index:2;
+}
+#treasurePop{
+    width:50vw;
+    height:20vh;
+    font-size:5vw;
+    text-align:center;
+    background-color:gold;
+    z-index:3;
+    color:black;
+    grid-column-start:3;
+    grid-row-start:4;
+    opacity:0;
+    border-radius: 20px;
+
     
 }
+
+#treasure:hover + #treasurePop{
+    opacity:1;
+    
+}
+/*city*/
+
+.city{
+    background-color:crimson;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    width:100vw;
+    height:100vh;
+}
+
+#cityBackOne{
+    background-color: gray;
+    grid-column:1/2;
+    grid-row:4/6; 
+    z-index:2;
+
+}
+
+.cityWindowOne{
+    background-color:yellow;
+    width:10vw;
+    height:8vh;
+    align-self: center;
+    justify-self:center;
+    grid-column:1/2;
+    grid-row:4/5;
+    z-index:2;
+
+    
+}
+
+.cityWindowOne.is-active {
+  background: black;
+}
+
+#cityBackTwo{
+    background-color: darkgray;
+    grid-column:2/3;
+    grid-row:3/6;
+    z-index:2;
+}
+
+.cityWindowTwo{
+    background-color:yellow;
+    width:10vw;
+    height:8vh;
+    align-self:center;
+    justify-self:center;
+    grid-column:2/3;
+    grid-row:2/5;
+    z-index:2;
+}
+.cityWindowTwo.is-active {
+  background: black;
+}
+#cityBackThree{
+    background-color: dimgray;
+    grid-column:3/4;
+    grid-row:4/6;
+    z-index:2;
+
+}
+.cityWindowThree{
+    background-color:yellow;
+    width:10vw;
+    height:8vh;
+    align-self:center;
+    justify-self:center;
+    grid-column:3/4;
+    grid-row:3/6;
+    z-index:2;
+}
+.cityWindowThree.is-active {
+  background: black;
+}
+
+#cityBackFour{
+    background-color: gray;
+    grid-column:4/5;
+    grid-row:2/6;
+    z-index:2;
+}
+.cityWindowFour{
+    background-color:yellow;
+    width:10vw;
+    height:8vh;
+    align-self:center;
+    justify-self:center;
+    grid-column:4/5;
+    grid-row:1/4;
+    z-index:2;
+}
+.cityWindowFour.is-active {
+  background: black;
+}
+#cityBackFive{
+    background-color: darkgray;
+    grid-column:5/6;
+    grid-row:5/8;
+    z-index:2;
+
+    
+}
+.cityWindowFive{
+    background-color:yellow;
+    width:10vw;
+    height:8vh;
+    align-self:center;
+    justify-self:center;
+    grid-column:5/6;
+    grid-row:5/6;
+    z-index:2;
+
+
+}
+.cityWindowFive.is-active {
+  background: black;
+
+}
+
+@media(max-width:1000px){
+    #cityBackOne{
+        background-color: orange;
+    }
+}
+@media(max-width:1100px){
+    #cityBackTwo{
+        background-color: green;
+    }
+}
+@media(max-width:1200px){
+    #cityBackThree{
+        background-color: blue;
+    }
+}
+@media(max-width:1300px){
+    #cityBackFour{
+        background-color: pink;
+    }
+}
+@media(max-width:1400px){
+    #cityBackFive{
+        background-color: white;
+    }
+}
+    
+
+
+
+.sunBg{
+    height:100px;
+    width:100px;
+    background:black;
+    border-radius: 100px 100px 100px 100px;
+    z-index:0;
+    align-self:center;
+    justify-self:center;
+    grid-column:3/4;
+    grid-row:2/3;
+}
+
+.sunBg.is-active{
+        animation: grow 5s; 
+}
+
+@keyframes grow{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(100);
+    }
+}
+
+
+
+
+
+
+/*/////////SPACE///////////*/
+
+
 
 .space{
     background-color: black;
@@ -216,6 +491,11 @@ a{
     height:100vh;
 }
 
+.space.is-active{
+    background-image: url("https://scx1.b-cdn.net/csz/news/800/2019/galaxy.jpg");
+    background-size:cover;
+}
+
 #moon{
     width:200px;
     height:200px;
@@ -223,12 +503,21 @@ a{
     border-radius: 50%;
     grid-column-start: 1;
     grid-row-start: 1;
+    transition: background-image 1s ease-out;
+
 }
+
+#moon:hover{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e1/Jupiter_%28transparent%29.png');
+    background-size:cover;
+
+}
+
 
 #earth{
     width:1000px;
-    height:1000px;
-    background-color:green;
+    height:800px;
+    background-image: url("https://pngimg.com/uploads/earth/earth_PNG39.png");
     border-top-left-radius:100%;
     border-top-right-radius:0;
     border-bottom-left-radius:0;
@@ -247,13 +536,42 @@ a{
     grid-column-start:3;
     grid-row-start:4;
     opacity:0;
+    border-radius: 20px;
     
 }
+
+
 
 #earth:hover + #earthPop{
     opacity:1;
 }
 
+
+#pluto{
+    width:50%;
+    height:auto;
+    position: relative;
+    top:990px;
+    left:-100px;
+}
+
+    
+#plutoPop{
+    width:50vw;
+    height:20vh;
+    font-size:5vw;
+    text-align:center;
+    background-color:purple;
+    color:white;
+    grid-column-start:1;
+    grid-row-start:6;
+    opacity:0;
+    border-radius: 20px;
+
+}
+#pluto:hover + #plutoPop{
+    opacity:1;
+}
 
 
 
