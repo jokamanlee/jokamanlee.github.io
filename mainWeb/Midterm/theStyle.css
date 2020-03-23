@@ -278,6 +278,7 @@ a{
     position:relative;
     left:-80vw;
     top:60vh;  
+    transition: all 2s;
 }
 
 .rock:focus {
