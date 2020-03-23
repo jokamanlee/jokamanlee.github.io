@@ -8,6 +8,8 @@
     grid-column-gap: 10vw;
     width:100vw;
     height:100vh;
+    font-family: 'Sen', sans-serif;
+
 
 }
 
@@ -17,55 +19,77 @@ h1{
     text-align: center;
     color:white;
     font-size: 4vw;
+    font-family: 'Sen', sans-serif;
+
 }
 
 
 a{
     text-decoration: line-through;
+    font-family: 'Sen', sans-serif;
+
+
     
 }
 
 #homeb{
     width:100px;
     height:50px;
-    background: black;
-    color: white;
+    background: none;
+    outline:none;
+    border:none;
+    color: pink;
     position: relative;
-    top:-100px;
-    left:300px;
+    top:-20vh;
+    left:70vw;
     z-index: 3;
     font-size: 15px;
-
-    
+    font-family: 'Sen', sans-serif;
+  
 }
+
+#homeb:hover{
+    color:green;
+}
+
+
 #homebc{
     width:100px;
     height:50px;
-    background: black;
-    color: white;
+    background: none;
+    color: black;
+    border:none;
+    outline:none;
     position: relative;
-    top:100px;
-    left:300px;
+    top:0vh;
+    left:90vw;
     z-index: 3;
     font-size: 15px;
-
-
-    
+    font-family: 'Sen', sans-serif; 
 }
+
+#homebc:hover{
+    color:dimgrey;
+}
+
 
 #homebs{
     width:100px;
     height:50px;
     background: black;
     color: white;
+    border:none;
+    outline:none;
     position: relative;
-    top:100px;
-    left:300px;
+    top:0vh;
+    left:50vw;
     z-index: 3;
     font-size: 15px;
+    font-family: 'Sen', sans-serif;    
+}
 
-
-    
+#homebs:hover{
+    color:mediumpurple;
 }
 
 
@@ -162,8 +186,9 @@ a{
     background-color:yellow;
     grid-template-columns: 20% 20% 20% 20% 20% 20%;
     grid-template-rows: 20% 3% 10% 10% 17% 20% 20%;
-    width:100vw;
+    width:auto;
     height:100vh;
+    margin-top: 0 auto;
 }
 
 
@@ -211,10 +236,10 @@ a{
 }
 
 @keyframes fish{
-    0% {top:800px; left:600px; opacity:0;}
-    10%{top:800px; left:400px; opacity:1;}
-    99%{top:800px; left:00px;opacity:1}
-    100%{top:800px; left:-300px; opacity:0;}
+    0% {top:70vh; left:50vw; opacity:0;}
+    10%{top:70vhx; left:25vw; opacity:1;}
+    99%{top:70vh; left:0vw;opacity:1}
+    100%{top:70vh; left:-25vw; opacity:0;}
 
 }
 
@@ -224,49 +249,41 @@ a{
     z-index:2;
     position:relative;
     animation-name:fishTwo;
-    animation-duration:12s;
+    animation-duration:6s;
     animation-iteration-count: infinite;
 }
 
 
 @keyframes fishTwo{
-    0%{top:550px; left:-700px;opacity: 0;}
-    10%{top:550px; left:-500px; opacity:1;}
-    99%{top:550px; left:100px;opacity:1}
-    100%{top:550px; left:100px;opacity:0;}
+    0%{top:50vh; left:-50vw;opacity: 0;}
+    10%{top:50vh; left:-25vw; opacity:1;}
+    99%{top:50vh; left:0vw;opacity:1}
+    100%{top:50vh; left:25vw;opacity:0;}
 }
 
 .water{
     background-color:aqua;
-    grid-area: 5/1/8/6;
+    grid-area: 5/1/8/7;
     z-index:2;
- 
 }
 
 .water.is-active {
   background: green;
 }
 
-#rock{
-    width:110%;
+.rock{
+    width:140%;
     height:auto;
     z-index:3;
     position:relative;
     left:-80vw;
     top:60vh;  
-    transition:all 2s;
 }
 
-#rock:focus {
+.rock:focus {
     top:20vh;
     outline:none;
 }
-
-#rock{
-    -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
-}
-
 
 /*rock cite:https://stackoverflow.com/questions/42006485/how-do-i-make-a-div-fly-off-the-screen-on-click/42006837*/
 
