@@ -1,4 +1,6 @@
-
+/*Sources that assisted me*/
+/*https://developer.mozilla.org/*/
+/*https://stackoverflow.com/*/
 
 #home{
     background-color: black;
@@ -305,7 +307,7 @@ a{
     z-index:3;
     color:black;
     grid-column-start:3;
-    grid-row-start:4;
+    grid-row-start:2;
     opacity:0;
     border-radius: 20px;
 
