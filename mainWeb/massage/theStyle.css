@@ -1,0 +1,147 @@
+main{
+    background-color:white;
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows:25% 25% 25% 25%;
+    height:70vh;
+    width:80vw;
+    /* padding:5vw; */
+    border: 5vw solid ;
+    border-color: brown;
+
+
+}
+
+body{
+    padding:5vw;
+    background-color: burlywood;
+    border: 5vw solid;
+    border-color: black;
+    width:80vw;
+    display: flex;
+    /* visibility: visible; */
+
+}
+
+#block{
+    grid-area: 1/1/5/5;
+
+    background-color: black;
+    /* display:none; */
+    visibility: visible;
+}
+
+#title{
+    color:white;
+    font-size: 4vw;
+    grid-column: 2/4;
+    grid-row-start:2;
+    visibility: hidden;
+}
+
+#one{
+    color:white;
+
+    font-size:3vw;
+    grid-column: 2/4;
+    grid-row:2/3;
+    visibility: hidden;
+}
+
+#two{
+    color:white;
+
+    font-size: 3vw;
+    grid-column:2/4;
+    grid-row:2/3;
+    visibility: hidden;
+}
+
+#three{
+    color:white;
+
+    font-size: 3vw;
+    grid-column:2/4;
+    grid-row:2/3;
+    visibility: hidden;
+}
+
+#four{
+    color:white;
+
+    font-size: 3vw;
+    grid-column:2/4;
+    grid-row:2/3;
+    visibility: hidden;
+}
+
+#five{
+    color:white;
+
+    font-size: 3vw;
+    grid-column:2/4;
+    grid-row:2/3;
+    visibility: hidden;
+}
+
+#six{
+    color:white;
+
+    font-size: 3vw;
+    grid-column:2/4;
+    grid-row:2/3;
+    visibility: hidden;
+}
+.group button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    /* float: right; */
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin:3vw;
+
+
+}
+
+
+#on{
+    justify-content: flex-end;
+    background-color: red;
+    border-radius: 50%;
+}
+
+#channelOne{
+    background-color:red;
+    border-radius:50%;
+}
+
+#channelTwo{
+    background-color:red;
+    border-radius:50%;
+}
+
+#channelThree{
+    background-color:red;
+    border-radius:50%;
+}
+
+#channelFour{
+    background-color:red;
+    border-radius:50%;
+}
+
+#channelFive{
+    background-color:red;
+    border-radius:50%;
+}
+
+#channelSix{
+    background-color:red;
+    border-radius:50%;
+}
+
+
+
+
