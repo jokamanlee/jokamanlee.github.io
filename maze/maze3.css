@@ -1,3 +1,49 @@
+.body{
+    font-family: 'Anton', sans-serif;
+    background-color: lightblue;
+}
+
+#lose{
+    visibility: hidden;
+}
+
+#work{
+    visibility: hidden;
+}
+.body3{
+    font-family: 'Anton', sans-serif;
+    background-color: lightblue;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+button{
+    background-color: black;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2vh;
+    margin-bottom: 2vh;
+}
+
+button:hover{
+    border-color: red;
+}
+a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+   
+p {
+       text-align: center;
+}
+
+
+
+
 h1, h2 {
     text-align: center;
    }
@@ -13,6 +59,8 @@ h1, h2 {
     height: 300px;
     width: 500px;
    }
+    
+    
    
     #end {
     position: absolute;
@@ -22,9 +70,6 @@ h1, h2 {
     border: 1px solid black;
     padding: 5px;
     cursor: default;
-    font-family: "Helvetica", "Arial", sans-serif;
-    font-size: 25pt;
-    text-align: center;
    }
       
    #start {
@@ -35,9 +80,6 @@ h1, h2 {
     border: 1px solid black;
     padding: 5px;
     cursor: default;
-    font-family: "Helvetica", "Arial", sans-serif;
-    font-size: 25pt;
-    text-align: center;
    }
    
    #maze #start {
@@ -46,7 +88,7 @@ h1, h2 {
    }
    
    #maze #end {
-    background-color: orange;
+    background-color: #2cd12c;
     right: 0;
    }
    
@@ -56,13 +98,7 @@ h1, h2 {
    }
    
    
- 
-   
-   /*
-   Hack hack hack; these are CSS "sibling selectors" for selecting
-   neighboring elements.  Necessary to avoid giving ids to the boundary divs
-   */
-   
+
    #maze div.boundary {
     position: absolute;
     
