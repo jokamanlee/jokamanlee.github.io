@@ -32,6 +32,10 @@ p {
 #lose{
     visibility: hidden;
 }
+#win{
+    visibility: hidden;
+   
+}
 
 h1, h2 {
     text-align: center;
@@ -71,69 +75,61 @@ h1, h2 {
 
    }
    
-   #maze #start {
+#maze #start {
     background-color: yellow;
-    left: 0;
-   }
-   
-   #maze #end {
+    left: -30px;
+}
+    
+#maze #end {
     background-color: #2cd12c;
-    right: 0;
-   }
+    right: -30px;
+}
    
-   div.boundary {
+div.boundary {
     background-color: black;
     border: 1px solid black;
-   }
+}
    
-   #maze div.boundary {
+#maze div.boundary {
     position: absolute;
-    
     top: 0;
-    left: 0;
+    left: -30px;
     height: 195px;
-    width: 50px;
+    width: 80px;
     z-index: 1;
-   }
+}
    
-   #maze div.boundary + div.boundary {
-
+#maze div.boundary + div.boundary {
     z-index: 2;
-    
     left: 50px;
     height: 150px;
-    width: 200px;
-   }
+    width: 370px;
+}
    
-   #maze div.boundary + div.boundary + div.boundary {
-
-    z-index: 1;
-    
-    left: 249px;
-    height: 100px;
-    width: 250px;
-   }
+#maze div.boundary + div.boundary + div.boundary {
+    z-index: 1;    
+    left: 419px;
+    height: 195px;
+    width: 108px;
+}
    
-   #maze div.boundary + div.boundary + div.boundary + div.boundary {
-
-    
+#maze div.boundary + div.boundary + div.boundary + div.boundary {  
     top: 250px;
-    left: 0;
+    left: -30px;
     height: 40px;
-    width: 498px;
-   }
+    width: 558px;
+}
    
-   #maze div.boundary + div.boundary + div.boundary + div.boundary + div.boundary {
-
-    
+#maze div.boundary + div.boundary + div.boundary + div.boundary + div.boundary {
     top: 200px;
     left: 200px;
     height: 50px;
     width: 98px;
-   }
+}
+
 #maze div.boundary + div.boundary + div.boundary + div.boundary + div.boundary + div.boundary{
     top:100px;
-    left: 350px;
+    left: 30px;
     height: 95px;
     width: 150px;
     

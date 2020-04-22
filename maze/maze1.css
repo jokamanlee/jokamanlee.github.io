@@ -11,6 +11,11 @@ h1, h2, h3 {
     visibility: hidden;
 }
 
+#win{
+    visibility: hidden;
+   
+}
+
 button{
     background-color: black;
     display: flex;
@@ -62,12 +67,12 @@ p {
     
 #maze #start {
     background-color: yellow;
-    left: 0;
+    left: -30px;
 }
     
 #maze #end {
     background-color: #2cd12c;
-    right: 0;
+    right: -30px;
 }
     
 div.boundary {
@@ -78,9 +83,9 @@ div.boundary {
 #maze div.boundary {
     position: absolute;
     top: 0;
-    left: 0;
+    left: -30px;
     height: 150px;
-    width: 50px;
+    width: 80px;
     z-index: 1;
 }
     
@@ -95,19 +100,19 @@ div.boundary {
     z-index: 1;
     left: 249px;
     height: 100px;
-    width: 250px;
+    width: 278px;
 }
     
 #maze div.boundary + div.boundary + div.boundary + div.boundary { 
     top: 250px;
-    left: 0;
+    left: -30px;
     height: 40px;
-    width: 498px;
+    width: 558px;
 }
     
 #maze div.boundary + div.boundary + div.boundary + div.boundary + div.boundary {
     top: 200px;
     left: 200px;
     height: 50px;
-    width: 98px;
+    width: 150px;
 }

@@ -82,15 +82,15 @@ h1, h2 {
     cursor: default;
    }
    
-   #maze #start {
+#maze #start {
     background-color: yellow;
-    left: 0;
-   }
-   
-   #maze #end {
+    left: -30px;
+}
+    
+#maze #end {
     background-color: #2cd12c;
-    right: 0;
-   }
+    right: -30px;
+}
    
    div.boundary {
     background-color: black;
@@ -103,7 +103,7 @@ h1, h2 {
     position: absolute;
     
     top: 0;
-    left: 0;
+    left: -30px;
     height: 195px;
     width: 50px;
     z-index: 1;
@@ -113,7 +113,7 @@ h1, h2 {
 
     z-index: 2;
     
-    left: 50px;
+    left: 20px;
     height: 50px;
     width: 200px;
    }
@@ -124,16 +124,16 @@ h1, h2 {
     
     left: 200px;
     height: 100px;
-    width: 300px;
+    width: 330px;
    }
    
    #maze div.boundary + div.boundary + div.boundary + div.boundary {
 
     
     top: 250px;
-    left: 0;
+    left: -30px;
     height: 40px;
-    width: 498px;
+    width: 558px;
    }
    
    #maze div.boundary + div.boundary + div.boundary + div.boundary + div.boundary {
@@ -148,13 +148,13 @@ h1, h2 {
     top:100px;
     left: 350px;
     height: 120px;
-    width: 150px;
+    width: 180px;
     
 }
 #maze div.boundary + div.boundary + div.boundary + div.boundary + div.boundary + div.boundary + div.boundary{
     top:80px;
-    left: 80px;
+    left: 50px;
     height: 170px;
-    width: 90px;
+    width: 125px;
     
 }

@@ -9,7 +9,7 @@ var gameStart = false;
 var start = $("#start").click(function(){
     gameStart = true;
     body.css("background-color", "lightblue");
-
+    body3.css("background-color", "lightblue");
     boundary.css("background-color", "black")
     if(boundary.hasClass('lost')){
         boundary.removeClass('lost');
@@ -38,6 +38,7 @@ function won(){
         gameStart = false;
         stat.text('YOU WON!');
         body.css("background-color", "green");       body3.css("background-image", "url('https://i.pinimg.com/originals/49/07/82/49078239072dee326254d6a0d1a34ea9.gif')");
+        $('#win')[0].play()
         $('#work')[0].play()
         if($('body').is('.body3')){
             stat.text('YOU FINISHED THE GAME!');
