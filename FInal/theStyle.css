@@ -80,6 +80,9 @@
 .yleaves{
     background-color: #9c8419;
     position:absolute;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
     top:0;
     left:0;
     height:30px;
@@ -90,6 +93,8 @@
 .rleaves{
     background-color: darkred;
     position:absolute;
+    margin-left: 10vw;
+    margin-right: 10vw;
     top:0;
     left:0;
     height:30px;
@@ -100,6 +105,8 @@
 .oleaves{
     background-color: #b86f09;
     position:absolute;
+    margin-left: 10vw;
+    margin-right: 10vw;
     top:0;
     left:0;
     height:30px;
