@@ -1,0 +1,383 @@
+#person{
+    width:20%;
+    position:relative;
+    top:60vh;
+    left: 2vw;
+}
+
+#Tree{
+    background: #2e0b18;
+    position:absolute;
+    top: 50vh;
+    left: 30%;
+    width:100px;
+    height:350px;
+}
+.scaleable-wrapper{
+    position:relative;
+    width:1000px;
+   
+}
+
+
+
+
+/*FALL*/
+
+
+#Fall{
+    background-color: white;
+   
+}
+
+
+
+#fallGround{
+    background-color: sandybrown;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:300px;
+}
+
+
+#orangeBush{
+    background-color: #b86f09;
+    position:absolute;
+    top:20vh;
+    left:10%;
+    height:300px;
+    width:300px;
+    border-radius:50%;
+    z-index: 1;
+    opacity = 1;
+}
+
+#redBush{
+    background-color: darkred;
+    position:absolute;
+    top:30vh;
+    left:20%;
+    height:300px;
+    width:300px;
+    border-radius:50%;
+    z-index: 2;
+    opacity = 1;
+}
+
+#yellowBush{
+    background-color: #9c8419;
+    position:absolute;
+    top:20vh;
+    left:28%;
+    height:300px;
+    width:300px;
+    border-radius:50%;
+    opacity = 1;
+}
+
+
+.yleaves{
+    background-color: #9c8419;
+    position:absolute;
+    top:0;
+    left:0;
+    height:30px;
+    width:30px;
+    border-radius:50%;
+}
+
+.rleaves{
+    background-color: darkred;
+    position:absolute;
+    top:0;
+    left:0;
+    height:30px;
+    width:30px;
+    border-radius:50%;
+}
+
+.oleaves{
+    background-color: #b86f09;
+    position:absolute;
+    top:0;
+    left:0;
+    height:30px;
+    width:30px;
+    border-radius:50%;
+}
+
+#wind{
+    visibility: hidden;
+}
+
+#sun{
+    background-color: yellow;
+    position:relative;
+    height:250px;
+    width:250px;
+    border-radius:50%;
+    top:-40vh;
+    left:70%;
+    z-index: -2;
+}
+
+
+/*WINTER*/
+#Winter{
+    background-color:gainsboro;
+}
+
+#winterGround{
+    background-color: white;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:300px;
+    
+}
+
+#snowBush{
+    background-color:white;
+    position:absolute;
+    top:20vh;
+    left:15%;
+    height:400px;
+    width:400px;
+    border-radius:50%;
+    z-index: 3;
+    
+}
+
+#cloud{
+    background-color: gray;
+    position:relative;
+    border-radius:25%;
+    height:200px;
+    top:-30vh;
+    z-index:2;
+    overflow:hidden;
+    
+}
+#snowwords{
+    font-size:50px;
+    color:white;
+    position:relative;
+    text-align: center;
+    top:-40vh;
+    z-index:3;
+}
+#yes{
+    font-size:50px;
+    color:black;
+    position:relative;
+    left:20vw;
+    top:-30vh;
+    z-index:4;
+/*    text-align: center;*/
+    
+}
+
+#no{
+    font-size:50px;
+    color:black;
+    position:relative;
+    text-align: center;
+    left:60vw;
+    top:-30vh;
+    z-index:4;
+   
+    
+}
+
+#okay{
+    visibility: hidden;
+}
+
+#site {
+    width:100%;
+    height:100%;
+    margin:0 auto;
+    position:relative;
+    overflow:hidden;
+}
+
+
+.snows{
+    top:0px;
+    left:0px;
+    position:absolute;
+    z-index:1;
+    width:10px;
+    height:10px;
+    background:white;
+}
+
+.snowman{
+    visibility: hidden;
+}
+#head{
+    background-color: whitesmoke;
+    position:absolute;
+    top: 37vh;
+    left:54.5vw;
+    height:150px;
+    width:150px;
+    border-radius:50%; 
+    
+}
+
+#body{
+    background-color: whitesmoke;
+    position:absolute;
+    top: 50vh;
+    left:53vw;
+    height:200px;
+    width:200px;
+    border-radius:50%; 
+    
+}
+
+#feet{
+    background-color: whitesmoke;
+    position:absolute;
+    top: 65vh;
+    left:50vw;
+    height:300px;
+    width:300px;
+    border-radius:50%; 
+    
+}
+
+/*SPRING*/
+
+#springGround{
+    background-color: pink;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:300px;      
+}
+.springBush{
+    position:relative;
+    border:solid black 3px;
+    top:20vh;
+    left:15%;
+    height:400px;
+    width:400px;
+    border-radius:50%;
+    overflow:hidden;
+    
+}
+
+.blossom{
+    background-color: pink;
+    position:absolute;
+    height:200px;
+    width:200px;
+    border-radius:50%; 
+}
+
+.flower{
+    width:10%;
+}
+
+
+#personS{
+    width:20%;
+    position:relative;
+    top:20vh;
+    left: 2vw;
+}
+.petals{
+    top:0px;
+    left:0px;
+    position:absolute;
+    z-index:3;
+    border-radius:50%;
+    width:10px;
+    height:10px;
+    background:pink;
+}
+
+
+/*SUMMER*/
+#Summer{
+}
+
+#summerGround{
+    background-color: green;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:300px; 
+    
+}
+
+#summerBush{
+    background-color:green;
+    position:absolute;
+    top:15vh;
+    left:15%;
+    height:400px;
+    width:400px;
+    border-radius:50%;
+    z-index: 3;
+}
+
+#hotSun{
+    background-color: orange;
+    position:relative;
+    height:400px;
+    width:400px;
+    border-radius:50%;
+    top:5vh;
+    left:85%;
+    z-index: 5;
+}
+
+#fire{
+    position:absolute;
+    width: 100%;
+    top:10vh;
+    left:-15%;
+    z-index:4;
+    visibility: hidden;
+    
+
+}
+#person2{
+    width:20%;
+    position:relative;
+    top:60vh;
+    left: 2vw;
+}
+
+#hot{
+    font-size:50px;
+    color:red;
+    background: none;
+    border:none;
+    position:absolute;
+    text-align: center;
+    left:8vw;
+    top:15vh;
+}
+
+/*END*/
+
+#end{
+    background-color:black;
+}
+
+#endText{
+    color:white;
+    font-size:50vw;
+    text-align:center;
+}
+
+#textSummer{
+    color:white;
+    font-size:25vw;
+    text-align:center;
+}
