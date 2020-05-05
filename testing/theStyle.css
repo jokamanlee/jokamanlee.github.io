@@ -1,0 +1,10 @@
+#box{
+    border:5px solid;
+    width:100px;
+    height:100px;
+    background-color: red;
+}
+
+#lick{
+    visibility: hidden;
+}
