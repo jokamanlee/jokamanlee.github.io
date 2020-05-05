@@ -100,7 +100,6 @@ function fallingYLeaves() {
             'left': (Math.random() * ($('#Fall').width() * .5)) + 'px',
             'top': ($('#yellowBush').height()) + 'px'
         });
-            // add this snowflake to the set of snowflakes
         yleaves = yleaves.add(yleave);
     }
     $('#YleaveZone').prepend(yleaves);
@@ -127,7 +126,6 @@ function fallingRLeaves() {
             'left': (Math.random() * ($('#Fall').width() * .5)) + 'px',
             'top': ($('#redBush').height()) + 'px'
         });
-            // add this snowflake to the set of snowflakes
         rleaves = rleaves.add(rleave);
     }
     $('#RleaveZone').prepend(rleaves);
@@ -154,7 +152,6 @@ function fallingOLeaves() {
             'left': (Math.random() * ($('#Fall').width() * .5)) + 'px',
             'top': ($('#orangeBush').height()) + 'px'
         });
-            // add this snowflake to the set of snowflakes
         oleaves = oleaves.add(oleave);
     }
     $('#OleaveZone').prepend(oleaves);
