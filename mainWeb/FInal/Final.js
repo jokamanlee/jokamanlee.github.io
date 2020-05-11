@@ -212,6 +212,7 @@ setInterval(function(){
         sun.animate({top: top + 50 + "px"}, 350);
         if(limit == true){
             sun.stop();
+            $('#Fall').css("background-color", "black");
         }}}, 2000);
 
 
